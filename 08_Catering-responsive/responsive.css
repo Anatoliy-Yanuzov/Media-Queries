@@ -1,0 +1,21 @@
+@media all and (max-width: 600px) {
+  .w3-right {
+    display: none;
+  }
+
+  .w3-bar .w3-button {
+    letter-spacing: 3px;
+  }
+  #about .w3-opacity-min {
+    display: none;
+  }
+  .w3-col.m6 {
+    width: 100%;
+  }
+  .w3-col.l6 {
+    width: 100%;
+  }
+  .w3-padding-16 {
+    background: none;
+  }
+}

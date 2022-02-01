@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(238, 238, 238);
+  margin: 60px 20px;
+  line-height: 1.5;
+  size: 16px;
+  padding: 0 80px;
+}
+header {
+  border-bottom: solid;
+}
+.site-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px 0;
+}
+main {
+  font-family: Georgia, serif;
+}
+img {
+  border: 3px solid;
+  padding: 5px;
+}
+.first-pic {
+  min-width: 15%;
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.second-pic {
+  min-width: 20%;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#inline-paragraph {
+  flex-grow: 0;
+}
+blockquote {
+  flex-grow: 0;
+  font-style: italic;
+  border-left: 4px solid grey;
+  padding-left: 40px;
+}
+blockquote p {
+  text-align: right;
+}
+@media (min-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media (min-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media (min-width: 840px) {
+  body {
+    font-size: 18px;
+  }
+  .inline-paragraph {
+    width: 45%;
+  }
+  blockquote {
+    width: 45%;
+  }
+}
+
+@media (min-width: 1300px) {
+  body {
+    font-size: 21px;
+  }
+}
+@media (min-width: 1800px) {
+  body {
+    font-size: 23px;
+  }
+}
